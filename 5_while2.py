@@ -22,10 +22,6 @@ questions_and_answers = {
 }
 
 def ask_user(answers_dict):
-    """
-    Замените pass на ваш код
-    """
-
     while True:
         user_question = input('Пользователь: ')
         answer = questions_and_answers.get(user_question)
