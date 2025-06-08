@@ -18,7 +18,6 @@
 def main():
     """
     Эта функция вызывается автоматически при запуске скрипта в консоли
-    В ней надо заменить pass на ваш код
     """
     def string_comparison(string_1, string_2):
         if (type(string_1) != str) or (type(string_2)) != str:

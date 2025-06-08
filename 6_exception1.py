@@ -11,9 +11,6 @@
 """
 
 def hello_user():
-    """
-    Замените pass на ваш код
-    """
     try:
         while True:
             user_state = input('Как дела?\n')
